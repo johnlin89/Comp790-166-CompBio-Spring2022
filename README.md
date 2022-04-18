@@ -44,35 +44,34 @@ This is the preliminary set of topics.
 |Wednesday February 9 [[*Homework 1 Assigned*](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/tree/main/Homework1)]| Branch Preserving Visualizating for Cellular Differentiation, Data Augmentation for Single Cell Identifying prototypical cells of a particular experimental condition with graph signal processing| [[SUGAR](https://papers.nips.cc/paper/2018/hash/c8ed21db4f678f3b13b9d5ee16489088-Abstract.html)] | [[Lecture 9 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture9_public.pdf)] | [[sugar](https://github.com/stanleyjs/sugar)] | 
 |Monday February 14| Finish data augmentation for sparse single-cell landscapes, start graph signal processing background|[[Graph Signal Processing Review Article](https://web.media.mit.edu/~xdong/paper/spm20.pdf)],[[MELD](https://www.biorxiv.org/content/10.1101/532846v4)] | [[Lecture 10 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture10_public.pdf)] | [[MELD](https://github.com/KrishnaswamyLab/MELD)] [[pyGSP](https://pygsp.readthedocs.io/en/stable/)] |
 |Wednesday February 16 [[*Project Proposal Signup Sheet*](https://docs.google.com/spreadsheets/d/1fX52jKWDWbJO1iB6D7FHv1DNQ53LPs0S8yNCUnUbSwQ/edit?usp=sharing)] ; [[*Project Proposal Template*](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Project_Proposal/Project_Proposal.pdf)] | Finish introducing graph signal processing, low-pass filtering, MELD for selecting condition-specific prototypical cells | See references from Monday. Also, [[The Emerging Field of Graph Signal Processing](https://arxiv.org/abs/1211.0053)] | [[Lecture 11 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture11_public.pdf)] | |
-|Week X-X| Differential Abundance Analysis |
-|Week X-X| Combining Multiple Single-Cell Datasets|
-|Week X-X| Combinding multiple panels (e.g. single-cell data with different measured features), Pseudotime and trajectory inference|
-|Week X-X| X|
-|Week X-X| X|
-|Week 8-1| Combining biological data from multiple modalities using Grassmann Embeddding|
-|Week 8-1| Longitudinal multi-modal integration and neuroscience application|
-|Week 9-1| Convex Optimization and ADMM|
-|Week 10-1| 'Multiomics Factor Analysis' for integrating multiple modalities and multiple single-cell modalities|
-|Week 10-2| Integrating Graphs with Multiple Relational Definitions (e.g. same nodes, different edges), Intro to Network Alignment|
-|Week 11-1| Refining Graph Alignments and Graph Summarization|
-|Week 12-2| Harmonic Alignment for integrating multiple single-cell datasets, Graph Neural Networks vs. Label Propagation|
-|Week 13-1| Graph Neural Networks to integrate spatial information with genomic data|
-|Week 13-2| Imagining Proteomics and Genomics and Spatial Regularization|
-|Week 14-1| Computational Neuroscience and Time-Varying Analysis of Brain Connectivity| 
-|Week 15-1| Sketching single-cell datasets day 1
-|Week 15-2| Sketching single-cell datasets day 2
-|Week 16-1| Technical writing in comp bio, opportunities for graph learning in biology, summary of topics covered|
-|Week 16-2| Project Presentations Day 1
-|Week 17-1| Project Presentations Day 2
-|Week 17-2| Project Presentations Day 3
-|Final Exam Day| Final Project Writeups Due
+|Monday February 21| Finish up GSP background, Identifying condition or experimentally-specific prototypical cells with Meld, Start Differential Abundance Analysis with Cydar | [[Cydar](https://www.nature.com/articles/nmeth.4295)] | [[Lecture 12 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture12_public.pdf)] | [[cydar](https://www.bioconductor.org/packages/release/bioc/html/cydar.html)] |
+|Wednesday February 23, **Homework 1 is due by 11:59pm eastern time on February 25**| Differential Abundance Day 2. Cydar,  Milo| [[Milo](https://www.nature.com/articles/s41587-021-01033-z)] | [[Lecture 13 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture13_public.pdf)] |  [[Milo](https://github.com/emdann/milopy)] | 
+|Monday February 28 [[*Please sign up for your project presentations here!*](https://docs.google.com/spreadsheets/d/1fX52jKWDWbJO1iB6D7FHv1DNQ53LPs0S8yNCUnUbSwQ/edit?usp=sharing)]| Finish differential abundance analysis (Milo and Cydar), Contrastive PCA for dealing with background data | [[Contrastive PCA](https://www.nature.com/articles/s41467-018-04608-8)] | [[Lecture 14 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture14_public.pdf)]  | [[Contrastive PCA](https://github.com/abidlabs/contrastive)] |
+|Wednesday March 2 **Please bring your laptops to class!**| Trajectory inference - guest lecture and tutorial by Jolene Ranek | [[PAGA](https://link.springer.com/article/10.1186/s13059-019-1663-x)], [[A Comparison of Single-Cell Trajectory Inference Methods](https://www.nature.com/articles/s41587-019-0071-9)], [[Slingshot](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4772-0)]. | [[Lecture 15 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture15_public.pdf)], [[Colab Notebook for trajectory inference](https://colab.research.google.com/drive/14LRc76ltDEnHi4v2jUWCS9Tad-RbXOLz?usp=sharing)] | [[PAGA](https://scanpy.readthedocs.io/en/stable/generated/scanpy.tl.paga.html)] | 
+|Monday, March 7| Batch 1 of project presentations | [[Link to Presentation Schedule](https://docs.google.com/spreadsheets/d/1fX52jKWDWbJO1iB6D7FHv1DNQ53LPs0S8yNCUnUbSwQ/edit?usp=sharing)] |
+|Wednesday, March 9| Batch 2 of project presentations | [[Link to Presentation Schedule](https://docs.google.com/spreadsheets/d/1fX52jKWDWbJO1iB6D7FHv1DNQ53LPs0S8yNCUnUbSwQ/edit?usp=sharing)] |
+|Monday, March 14| Spring Break -- No class! |
+|Wednesday, March 16| Spring Break -- No class! | 
+|Monday, March 21| Finish differential abundance analysis (Milo), Contrastive PCA, Merging Multiple Single-Cell Datasets (Conos) | [[Conos](https://www.nature.com/articles/s41592-019-0466-z)] | [[Lecture 18 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture18.pdf)] | [[Conos](https://github.com/kharchenkolab/conos)] |
+| Wednesday, March 23| Pseudotime, Diffusion, and Cellular Differentiation | [[Diffusion Maps for Differentiation](https://academic.oup.com/bioinformatics/article/31/18/2989/241305)], [[SLICER-developed at UNC](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0975-3)], [[Original Diffusion Maps (Coifman)](https://papers.nips.cc/paper/2005/file/2a0f97f81755e2878b264adf39cba68e-Paper.pdf)] | [[Lecture 19 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture19_public.pdf)] | [[Diffusion Maps -Scanpy](https://scanpy.readthedocs.io/en/latest/api/scanpy.tl.diffmap.html)], [[SLICER](https://github.com/jw156605/SLICER)]  | 
+|Monday, March 28| Last single-cell lecture. Branching trajectories with SLICER. Begin combining biological data from multiple modalities using Grassmann Embeddding| [[Subspace Merging on Grassmann Manifold](https://academic.oup.com/bioinformatics/article/35/10/1653/5134062?login=true)], [[Rayleigh Ritz Business (Spectral Clustering...](https://arxiv.org/abs/0711.0189)] | [[Lecture 20 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture20_public.pdf)] | [[Grassmann Cluster](https://github.com/michaelsharpnack/GrassmannCluster)] | 
+|Wednesday, March 30| Finish multimodal data integration with Grassmann + Rayleigh Ritz, Start MOFA integration | [[MOFA](https://www.embopress.org/doi/full/10.15252/msb.20178124)], [[MOFA+](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02015-1)] | [[Lecture 21 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture21_public.pdf)] | [[MOFA](https://github.com/bioFAM/MOFA)] |
+|Monday, April 4| Integrating multiple heterogeneous graphs (e.g. multiple relational definitions) | [[Mashup](https://www.cell.com/cell-systems/fulltext/S2405-4712(16)30360-X?)] | [[Lecture 22 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture22_public.pdf)]  | [[Mashup](http://cb.csail.mit.edu/cb/mashup/)] | 
+|Wednesday, April 6 [[*Project Presentation Signup* ](https://docs.google.com/spreadsheets/d/1_z1NBffJF8do8JrasTQl-8pS-ATR2ScI7SutRDPIf80/edit?usp=sharing)], [[*Final Project Writeup Template*](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/tree/main/Project_Final_Writeup)], [[**Homework 2 Assigned and due Fri April 22**](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/tree/main/Homework2)]| Graph Alignment and Summarization| [[REGAL (graph alignment)](https://gemslab.github.io/papers/heimann-2018-regal.pdf)], [[Refining Network Alignment](https://gemslab.github.io/papers/heimann-2021-RefiNA.pdf)] | [[Lecture 23 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture23_public.pdf)]  | [[REGAL](https://github.com/GemsLab/REGAL)], [[RefiNA](https://github.com/GemsLab/RefiNA)] |
+|Monday, April 11| Graph Alignment Refinment, Summarization, and Compression | See papers from last time | [[Lecture 24 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture24_public.pdf)]|
+|Wednesday, April 13| Label Propagation and Graph Neural Networks   | [[Correct and Smooth](https://arxiv.org/abs/2010.13993)] | [[Lecture 25 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture25_public.pdf)] |
+|Monday, April 18, [[Project Rubric](https://docs.google.com/document/d/1FKh4_9VK6CHwqLs2V3mTo457FwELEFYNrXwEqNbGlBk/edit?usp=sharing)]| Imaging Modalities and Spatial Regularization | [[LEAPH](https://www.cell.com/cell-reports-methods/pdfExtended/S2667-2375(21)00124-7)] | [Lecture 26 Notes](https://github.com/natalies-teaching/Comp790-166-CompBio-Spring2022/blob/main/Lecture_Notes/Lecture26_public.pdf)] | 
+|Wednesday, April 20| Technical Writing in Comp Bio | [[Watch : How to be a Machine Learning Biologist](https://www.youtube.com/watch?v=xueh6WnpRDQ&t=1651s)] |
+|Monday, April 25| Project Presentations Day 1 |
+|Wednesday, April 27| Project Presentations Day 2|
+|May 5| Final Project Writeups Due
 
 # Key Dates
 
 * **Homework 1 Due:** February 23 (assigned by February 9)
 * **Project Proposal Due:** March 9
 * **Homework 2 Due:** April 20
-* **Final Project Due:** Final Exam Day 
+* **Final Project Due:** Final Exam Day (May 5)
 
 # Homework, Project, Reading, Grading, Etc
 
